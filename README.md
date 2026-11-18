@@ -9,8 +9,6 @@ Projeto de Extensão em Empreendedorismo — **UNINOVE** (Universidade Nove de J
 
 > A **RVG Soluções em Tecnologia** é uma empresa **fictícia**, criada para este projeto. Ela oferece suporte, redes, sites e monitoramento a pequenos e médios negócios.
 
-🔗 **Site publicado:** [inserir link do site publicado]
-
 ---
 
 ## Sobre o projeto
