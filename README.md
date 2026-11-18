@@ -92,7 +92,9 @@ Monitor para a **sala de servidores**: se o ar-condicionado falhar e a sala esqu
 
 ### Esquema de ligação
 
-![Esquema de ligação do monitor de temperatura](imagens/circuito.png)
+
+ <img width="999" height="577" alt="image" src="https://github.com/user-attachments/assets/f3b5728a-c35e-47ab-9052-9b0456b2c2ba" />
+
 
 ### Como funciona o código
 
