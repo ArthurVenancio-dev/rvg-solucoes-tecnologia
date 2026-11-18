@@ -72,7 +72,8 @@ Não há dependências nem etapa de build. Baixe os arquivos e abra o `index.htm
 | Produtos e serviços | Equipe de desenvolvimento |
 |:---:|:---:|
 | <img width="833" height="447" alt="image" src="https://github.com/user-attachments/assets/2d7779f4-a7c6-4d1d-bc99-03c70ebda4bd" />
- | ![Equipe](imagens/equipe.png) |
+ | <img width="833" height="270" alt="image" src="https://github.com/user-attachments/assets/2252339a-52de-43ea-adf5-daa3c084cc9f" />
+ |
 
 ![Formulário de contato com consulta de CEP](imagens/formulario.png)
 
