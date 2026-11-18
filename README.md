@@ -67,11 +67,12 @@ Não há dependências nem etapa de build. Baixe os arquivos e abra o `index.htm
 |:---:|:---:|
 | <img width="833" height="556" alt="image" src="https://github.com/user-attachments/assets/9b97ca8e-1879-48e2-aae5-5358241d3045" />
  |<img width="833" height="445" alt="image" src="https://github.com/user-attachments/assets/12f360f9-4ed5-497b-98aa-f483d6f450b8" />
- |
+ 
 
 | Produtos e serviços | Equipe de desenvolvimento |
 |:---:|:---:|
-| ![Produtos e serviços](imagens/servicos.png) | ![Equipe](imagens/equipe.png) |
+| <img width="833" height="447" alt="image" src="https://github.com/user-attachments/assets/2d7779f4-a7c6-4d1d-bc99-03c70ebda4bd" />
+ | ![Equipe](imagens/equipe.png) |
 
 ![Formulário de contato com consulta de CEP](imagens/formulario.png)
 
