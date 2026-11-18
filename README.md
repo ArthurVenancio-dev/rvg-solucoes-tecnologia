@@ -66,7 +66,8 @@ Não há dependências nem etapa de build. Baixe os arquivos e abra o `index.htm
 | Página inicial | Nossa história |
 |:---:|:---:|
 | <img width="833" height="556" alt="image" src="https://github.com/user-attachments/assets/9b97ca8e-1879-48e2-aae5-5358241d3045" />
- | ![Nossa história](imagens/historia.png) |
+ |<img width="833" height="445" alt="image" src="https://github.com/user-attachments/assets/12f360f9-4ed5-497b-98aa-f483d6f450b8" />
+ |
 
 | Produtos e serviços | Equipe de desenvolvimento |
 |:---:|:---:|
