@@ -1,1 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RVG | Soluções em Tecnologia</title>
+  <meta name="description" content="RVG: suporte de TI, redes, sites e monitoramento com Internet das Coisas para pequenas e médias empresas.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <!-- CABEÇALHO E MENU -->
+  <header class="topo">
+    <a class="marca" href="#inicio" aria-label="RVG, página inicial">
+      <span class="marca-bloco">RVG</span>
+      <span class="marca-texto">Soluções em Tecnologia</span>
+    </a>
+    <button class="menu-botao" id="menuBotao" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav class="menu" id="menu">
+      <a href="#historia">História</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- INÍCIO -->
+    <section class="inicio" id="inicio">
+      <div class="inicio-texto">
+        <h1>Tecnologia funcionando para o seu negócio não parar.</h1>
+        <p>Cuidamos dos computadores, da rede, do site e do monitoramento da sua empresa. Você cuida dos seus clientes.</p>
+        <a class="botao" href="#contato">Pedir um orçamento</a>
+      </div>
+
+      <!-- Painel de status: cada porta é um serviço da RVG -->
+      <div class="painel" aria-label="Painel de serviços da RVG">
+        <div class="painel-topo">
+          <span>RVG-RACK-01</span>
+          <span class="painel-ok"><i class="led"></i> tudo operando</span>
+        </div>
+        <ul class="portas">
+          <li><i class="led"></i><b>Porta 1</b><span>Suporte</span></li>
+          <li><i class="led"></i><b>Porta 2</b><span>Redes</span></li>
+          <li><i class="led"></i><b>Porta 3</b><span>Sites</span></li>
+          <li><i class="led"></i><b>Porta 4</b><span>Monitoramento</span></li>
+        </ul>
+        <svg class="cabos" viewBox="0 0 400 90" aria-hidden="true">
+          <path d="M50 0 C50 60, 150 30, 150 90"/>
+          <path d="M150 0 C150 50, 250 40, 250 90"/>
+          <path d="M250 0 C250 60, 350 30, 350 90"/>
+          <path d="M350 0 C350 70, 50 20, 50 90"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- HISTÓRIA DA EMPRESA -->
+    <section class="bloco historia" id="historia">
+      <div class="historia-texto">
+        <h2>Nossa história</h2>
+        <p>A RVG nasceu em 2026 dentro da sala de aula, como empresa fictícia criada para o projeto de Front-End. A ideia veio de um problema comum: pequenos negócios dependem de tecnologia todos os dias, mas quase nunca têm alguém para cuidar dela.</p>
+        <p>Começamos pelo básico, com suporte e manutenção de computadores. Depois vieram as redes, os sites e, por fim, o primeiro projeto de Internet das Coisas: um monitor de temperatura para a sala de servidores, montado com Arduino.</p>
+        <p>Hoje a RVG reúne esses quatro serviços em um só lugar, com atendimento direto e linguagem simples.</p>
+      </div>
+      <figure class="historia-imagem">
+        <img src="img/sede (1).svg" alt="Ilustração da sala técnica da RVG, com rack de servidores, bancada e monitores">
+        <figcaption>Sala técnica da RVG (ilustração)</figcaption>
+      </figure>
+    </section>
+
+    <!-- PRODUTOS E SERVIÇOS -->
+    <section class="bloco" id="servicos">
+      <h2>Produtos e serviços</h2>
+      <div class="servicos">
+        <article class="servico">
+          <img src="img/suporte (3).svg" alt="Computador com ferramenta de manutenção">
+          <h3>Suporte e manutenção</h3>
+          <p>Formatação, limpeza, troca de peças e atendimento remoto para computadores e notebooks. Resolvemos o problema e explicamos o que aconteceu.</p>
+        </article>
+        <article class="servico">
+          <img src="img/redes (1).svg" alt="Roteador conectado a vários dispositivos">
+          <h3>Redes e infraestrutura</h3>
+          <p>Projeto e instalação de rede cabeada e Wi‑Fi, organização de rack, servidor de arquivos e rotina de backup.</p>
+        </article>
+        <article class="servico">
+          <img src="img/sites (3).svg" alt="Janela de navegador com uma página em construção">
+          <h3>Sites e sistemas web</h3>
+          <p>Sites responsivos feitos com HTML, CSS e JavaScript, com formulário de contato e integração com APIs.</p>
+        </article>
+        <article class="servico">
+          <img src="img/iot (1).svg" alt="Placa Arduino com sensor de temperatura">
+          <h3>Monitoramento com IoT</h3>
+          <p>Sensores com Arduino que acompanham a temperatura da sala de servidores e avisam com luz e som quando algo sai do normal.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- EQUIPE -->
+    <section class="bloco" id="equipe">
+      <h2>Equipe de desenvolvimento</h2>
+      <div class="equipe">
+        <article class="pessoa">
+          <img src="img/WhatsApp Image 2026-10-05 at 15.08.39.jpeg" alt="Avatar de Arthur Barros Venancio">
+          <div>
+            <h3>Arthur Barros Venancio</h3>
+            <p class="funcao">Líder/Gerente do projeto</p>
+            <p>Responsável pelo planejamento, pelo circuito de Internet das Coisas e pelo desenvolvimento do site.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTATO + CONSUMO DA API VIACEP -->
+    <section class="bloco contato" id="contato">
+      <div>
+        <h2>Fale com a RVG</h2>
+        <p>Conte o seu problema e informe o CEP: o endereço é preenchido automaticamente pela API ViaCEP.</p>
+      </div>
+
+      <form id="formContato" novalidate>
+        <label>Nome
+          <input type="text" id="nome" name="nome" autocomplete="name" required>
+        </label>
+        <label>E-mail
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </label>
+        <label>Serviço
+          <select id="servico" name="servico">
+            <option>Suporte e manutenção</option>
+            <option>Redes e infraestrutura</option>
+            <option>Sites e sistemas web</option>
+            <option>Monitoramento com IoT</option>
+          </select>
+        </label>
+
+        <div class="linha-cep">
+          <label>CEP
+            <input type="text" id="cep" name="cep" inputmode="numeric" maxlength="9" placeholder="00000-000">
+          </label>
+          <button type="button" class="botao botao-claro" id="buscarCep">Buscar endereço</button>
+        </div>
+        <p class="aviso" id="avisoCep" role="status"></p>
+
+        <label>Rua
+          <input type="text" id="rua" name="rua" readonly>
+        </label>
+        <div class="linha-dupla">
+          <label>Bairro
+            <input type="text" id="bairro" name="bairro" readonly>
+          </label>
+          <label>Cidade/UF
+            <input type="text" id="cidade" name="cidade" readonly>
+          </label>
+        </div>
+
+        <label>Mensagem
+          <textarea id="mensagem" name="mensagem" rows="3" required></textarea>
+        </label>
+
+        <button type="submit" class="botao">Enviar mensagem</button>
+        <p class="aviso" id="avisoForm" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <span class="marca-bloco">RVG</span>
+    <p>RVG Soluções em Tecnologia é uma empresa fictícia, criada para fins acadêmicos.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
