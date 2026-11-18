@@ -75,7 +75,8 @@ Não há dependências nem etapa de build. Baixe os arquivos e abra o `index.htm
  | <img width="833" height="270" alt="image" src="https://github.com/user-attachments/assets/2252339a-52de-43ea-adf5-daa3c084cc9f" />
  |
 
-![Formulário de contato com consulta de CEP](imagens/formulario.png)
+!<img width="833" height="541" alt="image" src="https://github.com/user-attachments/assets/7ff4db87-fd49-40e4-b21b-896dd2113e69" />
+)
 
 ---
 
